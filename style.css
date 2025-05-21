@@ -1,0 +1,83 @@
+/* style.css */
+
+/* 1. Universal selector to reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 2. Body styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* 3. Style for headings using element selector */
+h2 {
+  color: #4A148C;
+  margin-bottom: 10px;
+}
+
+/* 4. Style an image using class selector */
+.image-style {
+  border: 3px solid #9C27B0;
+  border-radius: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+/* 5. Table styles using ID selector */
+#contact-table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-top: 20px;
+}
+
+#contact-table th,
+#contact-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+#contact-table th {
+  background-color: #E1BEE7;
+  color: #333;
+}
+
+/* 6. Form styling */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border: 2px solid #CE93D8;
+  border-radius: 10px;
+  max-width: 500px;
+  margin-top: 30px;
+}
+
+input, select {
+  margin-top: 5px;
+  padding: 8px;
+  width: 100%;
+  margin-bottom: 15px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+/* 7. Submit button */
+input[type="submit"] {
+  background-color: #AB47BC;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #9C27B0;
+}
